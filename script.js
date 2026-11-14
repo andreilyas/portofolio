@@ -19,6 +19,7 @@ const lightbox = document.querySelector("#experience-lightbox");
 const lightboxContent = document.querySelector(".lightbox-content");
 const lightboxImage = document.querySelector(".lightbox-image");
 const lightboxClose = document.querySelector(".lightbox-close");
+const spotifyEmbed = document.querySelector(".spotify-embed");
 
 const guestbookStorageKey = "andre-ilyas-guestbook";
 const defaultGuestbookComments = [
@@ -29,6 +30,16 @@ const defaultGuestbookComments = [
         createdAt: "2026-10-20T00:00:00.000Z"
     },
 ];
+
+if (spotifyEmbed instanceof HTMLIFrameElement) {
+    const spotifySource = spotifyEmbed.dataset.spotifySrc;
+
+    if (spotifySource) {
+        const embedUrl = new URL(spotifySource);
+        embedUrl.searchParams.set("refresh", Date.now().toString());
+        spotifyEmbed.src = embedUrl.toString();
+    }
+}
 
 if (starfieldCanvas instanceof HTMLCanvasElement) {
     const context = starfieldCanvas.getContext("2d");
