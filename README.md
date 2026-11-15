@@ -9,6 +9,9 @@ menampilkan proyek, keahlian, pengalaman, serta jalur komunikasi profesional.
 Jalankan project secara lokal atau deploy folder ini ke GitHub Pages, Vercel,
 atau layanan hosting statis lainnya.
 
+Website yang sudah dideploy dapat diakses melalui
+https://andreilyas.github.io/portofolio/.
+
 ## Fitur
 
 - Floating navigation bar dengan navigasi ke setiap section.
