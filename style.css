@@ -603,7 +603,7 @@ button:focus-visible {
 .spotify-embed {
     display: block;
     width: 100%;
-    min-height: 15.2rem;
+    height: 15.2rem;
     margin-top: 1.5rem;
     border: 0;
     border-radius: 1.3rem;
@@ -1282,6 +1282,64 @@ button:focus-visible {
     background:
         linear-gradient(135deg, rgb(34 211 238 / 18%), transparent 48%),
         radial-gradient(circle at 20% 82%, rgb(59 130 246 / 25%), transparent 36%);
+}
+
+.project-preview-health {
+    background:
+        linear-gradient(145deg, #102c37, #123f4a 55%, #0d202c);
+}
+
+.project-preview-health::before {
+    background:
+        linear-gradient(135deg, rgb(45 212 191 / 20%), transparent 48%),
+        radial-gradient(circle at 78% 72%, rgb(34 211 238 / 30%), transparent 34%);
+}
+
+.health-preview-badge {
+    position: absolute;
+    z-index: 1;
+    top: 7rem;
+    left: 3rem;
+    display: grid;
+    width: 7.5rem;
+    height: 7.5rem;
+    place-items: center;
+    border: 1px solid rgb(153 246 228 / 38%);
+    border-radius: 2rem;
+    background: rgb(13 148 136 / 38%);
+    box-shadow: 0 1.5rem 3rem rgb(0 0 0 / 18%);
+    color: #ccfbf1;
+    font-size: 1.9rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+}
+
+.health-preview-title {
+    position: absolute;
+    z-index: 1;
+    top: 8rem;
+    left: 13rem;
+    color: #f0fdfa;
+    font-size: clamp(2rem, 3vw, 3.5rem);
+    font-weight: 600;
+    letter-spacing: -0.08em;
+    line-height: 1;
+}
+
+.health-preview-title b {
+    color: #5eead4;
+    font-weight: inherit;
+}
+
+.health-preview-pulse {
+    position: absolute;
+    right: 3rem;
+    bottom: 5.5rem;
+    width: 38%;
+    height: 4rem;
+    border-top: 2px solid rgb(94 234 212 / 72%);
+    transform: skewY(-12deg);
+    opacity: 0.8;
 }
 
 .preview-window-bar {
