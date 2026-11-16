@@ -6,10 +6,7 @@ menampilkan proyek, keahlian, pengalaman, serta jalur komunikasi profesional.
 
 ## Live Preview
 
-Jalankan project secara lokal atau deploy folder ini ke GitHub Pages, Vercel,
-atau layanan hosting statis lainnya.
-
-Website yang sudah dideploy dapat diakses melalui:
+Website sudah dideploy dapat diakses melalui:
 https://andreilyas.github.io/portofolio/
 
 ## Fitur
