@@ -1274,16 +1274,6 @@ button:focus-visible {
     content: "";
 }
 
-.project-preview-support {
-    background: #0b1720;
-}
-
-.project-preview-support::before {
-    background:
-        linear-gradient(135deg, rgb(34 211 238 / 18%), transparent 48%),
-        radial-gradient(circle at 20% 82%, rgb(59 130 246 / 25%), transparent 36%);
-}
-
 .project-preview-health {
     background:
         linear-gradient(145deg, #102c37, #123f4a 55%, #0d202c);
@@ -1384,38 +1374,6 @@ button:focus-visible {
     border: 1px solid rgb(96 165 250 / 50%);
     border-radius: 50%;
     transform: rotate(-24deg);
-}
-
-.preview-dashboard-card {
-    position: absolute;
-    z-index: 1;
-    top: 7rem;
-    left: 3rem;
-    width: 9rem;
-    height: 11rem;
-    border: 1px solid rgb(103 232 249 / 30%);
-    border-radius: 1rem;
-    background: rgb(8 47 73 / 65%);
-    box-shadow: 0 1rem 3rem rgb(0 0 0 / 18%);
-}
-
-.preview-dashboard-card-two {
-    top: 11rem;
-    left: 14rem;
-    width: 10rem;
-    height: 7rem;
-    background: rgb(30 64 175 / 48%);
-}
-
-.preview-dashboard-line {
-    position: absolute;
-    z-index: 1;
-    right: 2rem;
-    bottom: 3.5rem;
-    width: 45%;
-    height: 0.5rem;
-    border-radius: 99rem;
-    background: linear-gradient(90deg, #22d3ee, #3b82f6, transparent);
 }
 
 .project-content {
@@ -2242,10 +2200,6 @@ button:focus-visible {
 
     .project-content h3 {
         font-size: 2.2rem;
-    }
-
-    .preview-dashboard-card-two {
-        left: 12rem;
     }
 
     .contact-section {
